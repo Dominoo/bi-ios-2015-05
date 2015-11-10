@@ -14,6 +14,7 @@
 		B47F81781BF1C9E50028D8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47F81771BF1C9E50028D8E7 /* Assets.xcassets */; };
 		B47F817B1BF1C9E50028D8E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47F81791BF1C9E50028D8E7 /* LaunchScreen.storyboard */; };
 		B47F81861BF1C9E50028D8E7 /* bi_ios_tableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F81851BF1C9E50028D8E7 /* bi_ios_tableviewUITests.swift */; };
+		B47F81911BF1D1BF0028D8E7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F81901BF1D1BF0028D8E7 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		B47F81811BF1C9E50028D8E7 /* bi-ios-tableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bi-ios-tableviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47F81851BF1C9E50028D8E7 /* bi_ios_tableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bi_ios_tableviewUITests.swift; sourceTree = "<group>"; };
 		B47F81871BF1C9E50028D8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B47F81901BF1D1BF0028D8E7 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		C33BB2F294196D8B35FAE8F3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				B47F81771BF1C9E50028D8E7 /* Assets.xcassets */,
 				B47F81791BF1C9E50028D8E7 /* LaunchScreen.storyboard */,
 				B47F817C1BF1C9E50028D8E7 /* Info.plist */,
+				B47F81901BF1D1BF0028D8E7 /* CustomCell.swift */,
 			);
 			path = "bi-ios-tableview";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B47F81731BF1C9E50028D8E7 /* ViewController.swift in Sources */,
+				B47F81911BF1D1BF0028D8E7 /* CustomCell.swift in Sources */,
 				B47F81711BF1C9E50028D8E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
